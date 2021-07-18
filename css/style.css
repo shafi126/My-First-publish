@@ -1,0 +1,189 @@
+/* main styles */
+* {
+  margin: 0px 0px 0px 0.3px;
+  padding: 0;
+}
+.header {
+  padding: 0px 0px 10px 0px;
+  background: black;
+}
+.header1 {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.headpg {
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbar {
+  padding: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+  text-align: center;
+}
+a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+/* side div  page-data */
+.sidepage-data {
+  height: 100vh;
+  width: 100%;
+}
+/* layout all page */
+.layout {
+  display: flex;
+}
+p {
+  font-size: 16px;
+}
+/* page data */
+.pagedata {
+  display: flex;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.pageimg {
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagehead {
+  padding: 20px 0px 20px 0px;
+}
+p {
+  font-size: 15px;
+}
+.pagehead:hover {
+  color: red;
+}
+/* footer */
+.footer {
+  background: black;
+  border: 2px solid black;
+}
+.foot-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.copyright {
+  color: white;
+  padding: 10px;
+  position: absolute;
+  left: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+.all-rights-reserved {
+  color: white;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+.footer-icons {
+  width: 20px;
+  padding: 10px;
+}
+.button {
+  color: red;
+  background: black;
+  padding: 3px;
+}
+@media screen and (max-width: 731px) {
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+  }
+  .header1 {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .headpg {
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar {
+    padding: 3px;
+    background: white;
+  }
+  a {
+    padding: 5px 10px;
+    color: black;
+    font-size: 15px;
+    text-decoration: underline black;
+  }
+  a:hover {
+    color: red;
+    transition: 0s;
+  }
+  .pagedata {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .pageimg {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pagehead {
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+    text-decoration: underline;
+  }
+  p {
+    font-size: 14px;
+  }
+  .foot-container {
+    display: block;
+    padding: 20px;
+  }
+  .all-rights-reserved {
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto Mono", monospace;
+    padding: 2px;
+    background: 2px solid black;
+    position: relative;
+  }
+  .social-media-icons {
+    display: flex;
+    position: absolute;
+    left: 60%;
+  }
+  .footer-icons {
+    width: 20px;
+    padding: 5px;
+  }
+  .button {
+    color: red;
+    background: black;
+    padding: 3px;
+  }
+}
