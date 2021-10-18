@@ -32,7 +32,7 @@ a {
 }
 a:hover {
   color: blue;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 /* side div  page-data */
 .sidepage-data {
@@ -99,7 +99,6 @@ p {
   padding: 10px;
 }
 .button {
-  color: red;
   background: black;
   padding: 3px;
 }
@@ -109,7 +108,7 @@ p {
     padding: 0px;
   }
   body {
-    background: rgb(147,220,248);
+    background: rgb(223, 190, 209);
     transition: 3s;
   }
   .header1 {
@@ -187,7 +186,7 @@ p {
   }
   .footer-icons {
     width: 20px;
-    padding: 5px;
+    padding: 2px;
   }
   .button {
     color: red;
