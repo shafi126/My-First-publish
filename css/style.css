@@ -99,6 +99,7 @@ p {
   padding: 10px;
 }
 .button {
+  color: red;
   background: black;
   padding: 3px;
 }
